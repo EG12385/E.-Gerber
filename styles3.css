@@ -1,0 +1,108 @@
+body{
+    background-color: #f4f4f4;
+  }
+
+  hr{
+    border: dotted #add8e6 6px;
+    border-bottom: none;
+    border-width: 7px;
+    width: 5%;
+  }
+
+  h1{
+    font-size: 562.5%;
+    color: #11999E;
+    margin-top:50px auto 0 auto;
+    font-family: 'Norican', cursive;
+    line-height: 2;
+  }
+  h2{
+    font-family: 'Alice', serif;
+    font-size: 2rem;
+    color: #11999E;
+    font-weight:normal;
+    padding-bottom: 10px;
+  }
+
+h3{
+  color:#11999E;
+  font-size: 30px;
+  font-family: 'Alice', serif;
+}
+
+#table{
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.cv{
+  margin-left: 2%;
+  margin-top: 2%;
+
+}
+
+
+.contact{
+  margin-left: 2%;
+  margin-top: 2%;
+
+}
+.work-container{
+ background-color:#ecfbfc;
+ text-align: justify;
+ position: relative;
+ padding:50px;
+}
+
+.top-container .next-container .middle-container .last-container {
+margin:100px 20px;
+}
+
+
+.bottom-container{
+background-color: #66bfbf;
+text-align: center;
+margin:60px auto 0;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.btn {
+box-shadow: 0px 10px 14px -7px #f0efef;
+background:linear-gradient(to bottom, #63b7af 5%, #e1f4f3 100%);
+background-color:#599bb3;
+border-radius:8px;
+display:inline-block;
+cursor:pointer;
+color:#11999E;
+font-family:'Alice', serif;
+font-size:20px;
+font-weight:bold;
+padding:12px 20px;
+text-decoration:none;
+text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+background-color: #235952;
+}
+.myButton:active {
+position: relative;
+top:1px;
+}
+
+
+
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(10);
+  }
+}
